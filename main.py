@@ -29,7 +29,7 @@
     
     <div id="auth-check">
         <div class="profile-dp-container" id="user-dp">
-            <img src="https://i.postimg.cc/4xqSYF3V/IMG-20260306-225423.png" alt="Ravi Kumar DP">
+            <img src="https://i.ibb.co/Q7Tcg8Mm/IMG-20260405-WA0020.jpg" alt="RK RAJA XWD">
         </div>
         <div class="header" id="user-name">MR. RAVI KUMAR PRAJAPAT</div>
     </div>
