@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FB TOKEN CHECKER RK RAJA XWD</title>
+    <title>FB TOKEN CHECKER - PRO -RK RAJA</title>
     <style>
         body { background: #0f0f0f; color: #ffffff; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 10px; text-align: center; }
         .profile-dp-container { margin: 20px auto; width: 100px; height: 100px; border-radius: 50%; border: 4px solid #FFD700; overflow: hidden; box-shadow: 0 0 20px #FFD700; transition: 0.5s; }
@@ -29,12 +29,12 @@
     
     <div id="auth-check">
         <div class="profile-dp-container" id="user-dp">
-            <img src="https://i.ibb.co/Q7Tcg8Mm/IMG-20260405-WA0020.jpg" alt="RK RAJA XWD">
+            <img src="https://i.ibb.co/Q7Tcg8Mm/IMG-20260405-WA0020.jpg" alt="Rk raja xwd DP">
         </div>
-        <div class="header" id="user-name">RK RAJA XWD</div>
+        <div class="header" id="user-name">🌿RK RAJA XWD🌿 </div>
     </div>
 
-    <div class="sub-header">𓆣  RK RAJA TOKEN CHACKER⸻🌍</div>
+    <div class="sub-header">PRO FB TOKEN CHECKER</div>
     <div id="uptime-badge">⏳ Server Uptime: Loading...</div>
 
     <div class="container">
@@ -52,8 +52,8 @@
             const n = document.getElementById('user-name');
             const d = document.querySelector('#user-dp img');
             if (n.innerText !== atob(_O) || d.src !== atob(_I)) {
-                document.getElementById('main-body').innerHTML = "<h1 style='color:red; margin-top:100px;'>🛑 SECURITY VIOLATION: CODE TAMPERED!<br>Owner: ꞅǩ  ꞅ𝐀𝖏𝐀  ✗ᏇƊ ⸻🌍  </h1>";
-return false;
+                document.getElementById('main-body').innerHTML = "<h1 style='color:red; margin-top:100px;'>🛑 SECURITY VIOLATION: CODE TAMPERED!<br>Owner:🫨 RK RAJA XWD HERE 🫨</h1>";
+                return false;
             }
             return true;
         }
@@ -94,7 +94,7 @@ return false;
                 resDiv.innerHTML = "";
                 data.forEach(item => {
                     if (item.status.includes("Live")) {
-                        resDiv.innerHTML += 
+                        resDiv.innerHTML += `
                         <div class="result-card">
                             <span class="result-status" style="position:absolute; top:10px; right:10px; font-size:12px; font-weight:bold; color: ${item.color}">${item.status}</span>
                             <div class="result-pic-container"><img src="${item.profile_pic}" alt="DP"></div>
@@ -104,13 +104,13 @@ return false;
                                 <b>📧 Info:</b> ${item.email}<br>
                                 <b>🎂 DOB:</b> ${item.dob}<br>
                             </div>
-                        </div>;
+                        </div>`;
                     } else {
-                        resDiv.innerHTML += 
+                        resDiv.innerHTML += `
                         <div class="result-card dead-card">
                             <span class="result-status" style="position:absolute; top:10px; right:10px; font-size:12px; font-weight:bold; color: ${item.color}">${item.status}</span>
                             <div class="result-info"><b style="color:#e74c3c">Error:</b> ${item.message}</div>
-                        </div>;
+                        </div>`;
                     }
                 });
             } catch (err) { resDiv.innerHTML = "<p style='color:red;'>Server Error!</p>"; }
